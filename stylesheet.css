@@ -1,0 +1,628 @@
+/* ------------------------------------------------------------------------------------------------------
+ * starterpack CSS
+ *
+ * Updated: July 5th, 2021 @ 4:57 P.M. PST
+ *
+ * Developed by ElijahPepe, kboy101222, ParkerEH, and ToCatchACreditor
+ * ------------------------------------------------------------------------------------------------------
+ * Project source:    https://github.com/ElijahPepe/starterpack
+ * ------------------------------------------------------------------------------------------------------ */
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+.linkinfo {
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    background-color: #fff;
+    border: 1px solid #e4eaee;
+    border-radius: 0px;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
+    padding: 1em;
+}
+
+pre,
+code,
+.md code,
+.md pre {
+    color: inherit;
+    background-color: #ffffff;
+    border-color: #e4eaee;
+    overflow: auto;
+}
+
+.side .md ul {
+    list-style: none none;
+    margin: 0;
+    padding: 0.3em 0 0 0;
+}
+
+.side .md ul li {
+    line-height: 1.125em;
+    margin: 0;
+    padding: 0.25em 0;
+    font-size: 0.75em;
+}
+
+.side .md ul li a {
+    color: white !important;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #2e5e05;
+    background-color: #3c780a;
+    display: block;
+    position: relative;
+    padding: 4px 0 5px 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease;
+    text-align: center;
+}
+
+.side .md ul li a:hover {
+    text-decoration: none;
+    background-color: #316208;
+}
+
+.res-commentBoxes .comment.spam {
+    background-color: #feecea;
+    color: #333;
+}
+
+#header-bottom-right a:hover,
+#sr-header-area .dropdown.srdrop .selected:hover {
+    text-decoration: underline;
+}
+
+#sr-header-area {
+    background-color: #fff;
+    border-bottom: none;
+    box-shadow: 0 0.25em 0.6em -0.15em rgba(0, 0, 0, 0.15);
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    text-transform: capitalize;
+}
+
+.sr-bar a {
+    color: #36414f;
+}
+
+#header-bottom-right a {
+    color: #36414f;
+    text-transform: capitalize;
+}
+
+#header,
+.beta-hint a {
+    background-repeat: no-repeat;
+}
+
+#header .tabmenu li a,
+.action-form .reason-prompt:first-letter,
+.action-form li label,
+.commentarea .menuarea span.dropdown-title.lightdrop:first-letter,
+.content .infobar:first-letter,
+.flairselector .error:first-letter,
+.flairselector form .flairselection .flairremove a,
+.flairselector h2,
+.link .entry .tagline:first-letter,
+.side #moderation_tools .title h1,
+.subscribe-button a.add,
+.subscribe-button a.remove,
+.unvotable-message:first-letter {
+    text-transform: lowercase;
+}
+
+
+
+#header {
+    background: url(%%starterpacksfinal%%);
+    height: 144px;
+}
+
+#header-bottom-left {
+    position: absolute;
+    bottom: 0;
+}
+
+.pagename.redditname {
+    opacity: 0;
+}
+
+.pagename a {
+    position: absolute;
+    top: -50px;
+    left: 536px;
+    width: 348px;
+    height: 57px;
+}
+
+/*Award Flairs*/
+.flair {
+    background: url(%%spritesheet%%) no-repeat -9999px;
+    border: 0;
+    padding: 0;
+}
+
+.flair-admin-pack {
+    width: 16px;
+    height: 21px;
+    background-position: 0 0;
+}
+
+.flair-basic-pack {
+    width: 16px;
+    height: 21px;
+    background-position: 0 -21px;
+}
+
+.flair-bronze-pack {
+    width: 16px;
+    height: 21px;
+    background-position: 0 -42px;
+}
+
+.flair-crystal-pack {
+    width: 16px;
+    height: 21px;
+    background-position: 0 -63px;
+}
+
+.flair-gold-pack {
+    width: 16px;
+    height: 21px;
+    background-position: 0 -84px;
+}
+
+.flair-mod-pack {
+    width: 16px;
+    height: 21px;
+    background-position: 0 -105px;
+}
+
+.flair-silver-pack {
+    width: 16px;
+    height: 21px;
+    background-position: 0 -126px;
+}
+
+.flair-basic-pack {
+    width: 16px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+.flair-basic-pack:hover {
+    width: 16px;
+    line-height: 32px;
+    text-indent: 32px;
+    font-size: 0px;
+    color: #fff;
+}
+
+.flair-bronze-pack {
+    width: 16px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+.flair-bronze-pack:hover {
+    width: 16px;
+    line-height: 32px;
+    text-indent: 32px;
+    font-size: 0px;
+    color: #fff;
+}
+
+.flair-silver-pack {
+    width: 16px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+.flair-silver-pack:hover {
+    width: 16px;
+    line-height: 32px;
+    text-indent: 32px;
+    font-size: 0px;
+    color: #fff;
+}
+
+
+.flair-gold-pack {
+    width: 16px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+.flair-gold-pack:hover {
+    width: 16px;
+    line-height: 32px;
+    text-indent: 32px;
+    font-size: 0px;
+    color: #fff;
+}
+
+
+.flair-crystal-pack {
+    width: 16px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+.flair-crystal-pack:hover {
+    width: 16px;
+    line-height: 32px;
+    text-indent: 32px;
+    font-size: 0px;
+    color: #fff;
+}
+
+.flair-mod-pack {
+    width: 16px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+.flair-mod-pack:hover {
+    width: 16px;
+    line-height: 32px;
+    text-indent: 32px;
+    font-size: 0px;
+    color: #fff;
+}
+
+.flair-admin-pack {
+    width: 16px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+.flair-admin-pack:hover {
+    width: 16px;
+    line-height: 32px;
+    text-indent: 32px;
+    font-size: 0px;
+    color: #fff;
+}
+
+/* filter flair */
+.linkflair-politic .linkflairlabel {
+    background-color: #132c76;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    border-color: #132c76;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+html:lang(po) .linkflair-politic {
+    display: none;
+}
+
+.side a[href*='#po'] {
+    display: inline-block;
+    position: relative;
+    margin-top: 0px;
+    font-size: 100%;
+    border: 2px;
+    border-radius: 3px;
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+    min-width: 270px;
+    text-align: center;
+}
+
+.side a[href*="#po"] {
+    background-color: #132c76;
+}
+
+.side a[href*="#po"]:hover {
+    color: #132c76;
+    background-color: white;
+}
+
+/* End Filter */
+
+
+/* GREENTEXTING*/
+.md blockquote {
+    border: 0;
+    margin: 0;
+    color: #789922;
+    display: block;
+}
+
+.md blockquote p:before {
+    content: ">";
+    float: left;
+    display: block;
+}
+
+
+/* expando fix? */
+.commentarea .thing {
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 0 0 8px;
+    padding: 16px 16px 1px;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.commentarea .child .thing {
+    box-shadow: none;
+}
+
+.commentarea .thing.collapsed {
+    padding: 10px 15px !important;
+}
+
+.commentarea .stickied {
+    background-color: #ecf8e3;
+}
+
+.res .commentarea .stickied {
+    border-color: #def3cf;
+}
+
+.res-commentBoxes .comment.spam {
+    background: #feecea !important;
+    border: 1px solid #fdd6d2 !important;
+}
+
+.res .commentarea .thing,
+.commentarea .thing {
+    padding: 10px 15px 0 !important;
+    border: 1px solid #e4eaee !important;
+}
+
+.res-commentBoxes.res-commentBoxes-rounded .comment {
+    padding: 10px 15px 0 !important;
+    border: 1px solid #e4eaee !important;
+}
+
+.sidecontentbox .content {
+    overflow: scroll;
+    width: 280px;
+}
+
+div.content {
+    margin-left: 16px;
+    margin-right: 340px;
+}
+
+.side {
+    margin-right: 16px;
+}
+
+/* expando from crappy design style sheet */
+
+.comment.noncollapsed .midcol {
+    margin-left: 30px;
+}
+
+.res .comment.noncollapsed .midcol {
+    margin-left: 10px;
+}
+
+.commentarea .comment a.expand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px 4px 0;
+    height: 100%;
+    opacity: .5;
+    box-sizing: border-box;
+    transition: 200ms;
+}
+
+.commentarea .comment a.expand:hover {
+    opacity: 1;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #5ba2fd;
+}
+
+.res .commentarea .comment a.expand:hover {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.commentarea .thing,
+.midcol {
+    position: relative
+}
+
+.commentarea .child.thing {
+    border: 1px solid #fff !important;
+}
+
+.comments-page .link {
+    background: #fff;
+    padding: 16px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* This section bugs out on Edge browsers, look into later. */
+/*.commentarea > .usertext {
+          margin: 0 0 10px 0px;
+          overflow: auto;
+          background: #fff;
+          padding-left: 20px;
+          padding-top: 100px;
+          margin-top: -94px;
+          box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+}*/
+
+.commentarea .menuarea {
+    padding: 0px 20px;
+}
+
+.comments-page .panestack-title .title {
+    margin-left: 20px;
+}
+
+
+/* Easter Egg Intensifies text code, [](/intensifies) */
+
+a[href="/intensifies"] {
+    color: #000000;
+    text-transform: uppercase;
+    display: block;
+    font-size: 15px;
+    animation: intensify .1s steps(5) infinite;
+    -webkit-animation: intensify .1s steps(5) infinite;
+    -moz-animation: intensify .1s steps(5) infinite;
+}
+
+@keyframes intensify {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 2px;
+    }
+}
+
+@-webkit-keyframes intensify {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 2px;
+    }
+}
+
+@-moz-keyframes intensify {
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 2px;
+    }
+}
+
+/* Easter Egg Ends*/
+
+/* Drop down/follow header */
+/* enter the following into subreddit setting sidebar to use:
+####[name](link)
+*/
+
+.titlebox h4 {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 97;
+    height: 30px;
+    background-color: #132c76;
+    -webkit-box-shadow: 0 2px 4px 0 #757575;
+    box-shadow: 0 2px 4px 0 #757575;
+    color: #C6C6C6;
+    padding-left: 55px;
+    font-weight: normal;
+    overflow: auto;
+    /*font-size: 12px;*/
+    line-height: 29px;
+}
+
+.titlebox h4 a {
+    margin: 0px 17px 0px 17px;
+    padding: 2px 0px 2px 0px;
+    border: 0px solid;
+    color: #C6C6C6 !important;
+    text-shadow: 0px 3px 5px #375529;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.titlebox h4 a:hover {
+    border-bottom-color: #5b92fa !important;
+    color: white !important;
+    font-weight: bold !important;
+    text-shadow: 0px 3px 5px #1f2914;
+    text-decoration: none;
+}
+
+/* reddit icon */
+.titlebox h4 a[href*="http://www.reddit.com/#top"] {
+    position: fixed;
+    left: 16px;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    background-image: url(%%icons%%);
+    background-position: -126px -72px;
+    border-bottom: 0px;
+    text-indent: -9999px;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0.6;
+}
+
+.titlebox h4 a[href*="http://www.reddit.com/#top"]:hover {
+
+    border-bottom: 0px solid;
+    opacity: 1;
+}
+
+.new-page .titlebox h4 a[href*="/new"],
+.top-page .titlebox h4 a[href*="/top"],
+.hot-page .titlebox h4 a[href*="/hot"] {
+    border-bottom: 0px solid #5b92fa;
+    color: #EAEAEA;
+}
+
+.side .md h4 {
+    margin-top: 0em !important;
+    padding-top: 5px;
+}
+
+#header {
+    z-index: 98
+}
+
+
+/** SPOILER TAGS **/
+
+a[href$="/spoiler"],
+a[href$="#spoiler"],
+a[href$="/s"],
+a[href$="#s"] {
+    background: #000 !important;
+    color: #000 !important
+}
+
+a[href$="/spoiler"]:hover,
+a[href$="#spoiler"]:hover,
+a[href$="/s"]:hover,
+a[href$="#s"]:hover {
+    color: #FFF !important
+}
+
+
+.flair-notamod {
+    background: #228822 !important;
+    color: #dddddd !important;
+    padding: 2px !important;
+    margin-left: 3px !important;
+}
