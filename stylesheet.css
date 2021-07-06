@@ -6,6 +6,25 @@ body {
     font-family: 'IBM Plex Sans', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
+.md h1,
+.md h2,
+.md h3,
+.md h4,
+.md h5,
+.md h6 {
+    color: #444e5a;
+    padding: 0 0 0.15em;
+    border-bottom: 1px solid #e4eaee;
+}
+
+.md h1 {
+    font-weight: bold;
+}
+
+.md h2 {
+    border: none;
+}
+
 .linkinfo {
     font-family: 'IBM Plex Sans', 'Helvetica Neue', 'Arial', sans-serif;
     background-color: #fff;
