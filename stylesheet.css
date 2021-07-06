@@ -55,6 +55,24 @@ code,
     padding: 1em;
 }
 
+#search input[type="text"] {
+    border: 1px solid #e4eaee;
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0,0,0,0.1);
+}
+
+#search input[type="text"]:focus {
+    outline: none;
+}
+
+#search input[type=text]::placeholder {
+    text-transform: capitalize;
+}
+
+#search input[type="submit"] {
+    display: none;
+}
+
 .side .md ul {
     list-style: none none;
     margin: 0;
@@ -108,6 +126,10 @@ code,
 #header-bottom-right a {
     color: #36414f;
     text-transform: capitalize;
+}
+
+#header {
+    border: none;
 }
 
 #header,
@@ -628,4 +650,17 @@ a[href$="#s"]:hover {
     color: #dddddd !important;
     padding: 2px !important;
     margin-left: 3px !important;
+}
+
+.gold-accent.comment-visits-box {
+    padding: .75em 2em 0.75em;
+    font-size: 0.9em;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0,0,0,0.1);
+    color: #705000;
+    border-color: #fde29b;
+    background-color: #fdf1d1;
+    margin-bottom: 1em;
+    display: inline-block;
+    left: 4px;
+    position: relative;
 }
