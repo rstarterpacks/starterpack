@@ -73,6 +73,22 @@ code,
     display: none;
 }
 
+.gold-accent {
+    color: #705000 !important;
+    border-color: #fde29b;
+    background-color: #fdf1d1;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0,0,0,0.1);
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+.gold-accent.comment-visits-box {
+    padding: .75em 2em 0.75em;
+    font-size: 0.9em;
+    left: 4px;
+    position: relative;
+}
+
 .side .md ul {
     list-style: none none;
     margin: 0;
