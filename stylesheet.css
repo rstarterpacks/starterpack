@@ -77,11 +77,6 @@ code,
     background-color: #316208;
 }
 
-.res-commentBoxes .comment.spam {
-    background-color: #feecea;
-    color: #333;
-}
-
 #header-bottom-right a:hover,
 #sr-header-area .dropdown.srdrop .selected:hover {
     text-decoration: underline;
@@ -378,16 +373,6 @@ html:lang(po) .linkflair-politic {
     padding: 10px 15px !important;
 }
 
-.res-commentBoxes .comment.spam {
-    background: #feecea !important;
-    border-color: #fdd6d2 !important;
-}
-
-.commentarea .spam {
-    background: #feecea;
-    border-color: #fdd6d2 !important;
-}
-
 .res .commentarea .thing {
     padding: 10px 15px 0 !important;
     border: 1px solid #e4eaee !important;
@@ -396,6 +381,16 @@ html:lang(po) .linkflair-politic {
 .commentarea .thing {
     padding: 10px 15px 0;
     border: 1px solid #e4eaee;
+}
+
+.res-commentBoxes.res-commentBoxes .spam {
+    background: #feecea !important;
+    border-color: #fdd6d2 !important;
+}
+
+.commentarea .spam {
+    background: #feecea;
+    border-color: #fdd6d2 !important;
 }
 
 .res-commentBoxes.res-commentBoxes .stickied {
