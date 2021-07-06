@@ -397,9 +397,8 @@ html:lang(po) .linkflair-politic {
     border: 1px solid #e4eaee !important;
 }
 
-.res-commentBoxes.res-commentBoxes-rounded .comment {
-    padding: 10px 15px 0 !important;
-    border: 1px solid #e4eaee !important;
+.res-commentBoxes.res-commentBoxes-rounded .stickied {
+    border-color: #def3cf !important;
 }
 
 .sidecontentbox .content {
