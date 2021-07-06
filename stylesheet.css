@@ -193,200 +193,6 @@ code,
     height: 57px;
 }
 
-/*Award Flairs*/
-.flair {
-    background: url(%%spritesheet%%) no-repeat -9999px;
-    border: 0;
-    padding: 0;
-}
-
-.flair-admin-pack {
-    width: 16px;
-    height: 21px;
-    background-position: 0 0;
-}
-
-.flair-basic-pack {
-    width: 16px;
-    height: 21px;
-    background-position: 0 -21px;
-}
-
-.flair-bronze-pack {
-    width: 16px;
-    height: 21px;
-    background-position: 0 -42px;
-}
-
-.flair-crystal-pack {
-    width: 16px;
-    height: 21px;
-    background-position: 0 -63px;
-}
-
-.flair-gold-pack {
-    width: 16px;
-    height: 21px;
-    background-position: 0 -84px;
-}
-
-.flair-mod-pack {
-    width: 16px;
-    height: 21px;
-    background-position: 0 -105px;
-}
-
-.flair-silver-pack {
-    width: 16px;
-    height: 21px;
-    background-position: 0 -126px;
-}
-
-.flair-basic-pack {
-    width: 16px;
-    text-indent: -9999px;
-    vertical-align: middle;
-    line-height: 32px;
-}
-
-.flair-basic-pack:hover {
-    width: 16px;
-    line-height: 32px;
-    text-indent: 32px;
-    font-size: 0px;
-    color: #fff;
-}
-
-.flair-bronze-pack {
-    width: 16px;
-    text-indent: -9999px;
-    vertical-align: middle;
-    line-height: 32px;
-}
-
-.flair-bronze-pack:hover {
-    width: 16px;
-    line-height: 32px;
-    text-indent: 32px;
-    font-size: 0px;
-    color: #fff;
-}
-
-.flair-silver-pack {
-    width: 16px;
-    text-indent: -9999px;
-    vertical-align: middle;
-    line-height: 32px;
-}
-
-.flair-silver-pack:hover {
-    width: 16px;
-    line-height: 32px;
-    text-indent: 32px;
-    font-size: 0px;
-    color: #fff;
-}
-
-
-.flair-gold-pack {
-    width: 16px;
-    text-indent: -9999px;
-    vertical-align: middle;
-    line-height: 32px;
-}
-
-.flair-gold-pack:hover {
-    width: 16px;
-    line-height: 32px;
-    text-indent: 32px;
-    font-size: 0px;
-    color: #fff;
-}
-
-
-.flair-crystal-pack {
-    width: 16px;
-    text-indent: -9999px;
-    vertical-align: middle;
-    line-height: 32px;
-}
-
-.flair-crystal-pack:hover {
-    width: 16px;
-    line-height: 32px;
-    text-indent: 32px;
-    font-size: 0px;
-    color: #fff;
-}
-
-.flair-mod-pack {
-    width: 16px;
-    text-indent: -9999px;
-    vertical-align: middle;
-    line-height: 32px;
-}
-
-.flair-mod-pack:hover {
-    width: 16px;
-    line-height: 32px;
-    text-indent: 32px;
-    font-size: 0px;
-    color: #fff;
-}
-
-.flair-admin-pack {
-    width: 16px;
-    text-indent: -9999px;
-    vertical-align: middle;
-    line-height: 32px;
-}
-
-.flair-admin-pack:hover {
-    width: 16px;
-    line-height: 32px;
-    text-indent: 32px;
-    font-size: 0px;
-    color: #fff;
-}
-
-/* filter flair */
-.linkflair-politic .linkflairlabel {
-    background-color: #132c76;
-    font-size: 11px;
-    font-weight: bold;
-    color: white;
-    border-color: #132c76;
-    border-width: 1px;
-    border-radius: 3px;
-}
-
-html:lang(po) .linkflair-politic {
-    display: none;
-}
-
-.side a[href*='#po'] {
-    display: inline-block;
-    position: relative;
-    margin-top: 0px;
-    font-size: 100%;
-    border: 2px;
-    border-radius: 3px;
-    padding: 3px;
-    color: white;
-    font-weight: bold;
-    min-width: 270px;
-    text-align: center;
-}
-
-.side a[href*="#po"] {
-    background-color: #132c76;
-}
-
-.side a[href*="#po"]:hover {
-    color: #132c76;
-    background-color: white;
-}
-
 
 /* expando fix? */
 .commentarea .thing {
@@ -496,17 +302,6 @@ div.content {
     padding: 16px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
-
-/* This section bugs out on Edge browsers, look into later. */
-/*.commentarea > .usertext {
-          margin: 0 0 10px 0px;
-          overflow: auto;
-          background: #fff;
-          padding-left: 20px;
-          padding-top: 100px;
-          margin-top: -94px;
-          box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
-}*/
 
 .commentarea .menuarea {
     padding: 0px 20px;
@@ -642,7 +437,6 @@ a[href="/intensifies"] {
     z-index: 98
 }
 
-
 /** SPOILER TAGS **/
 
 a[href$="/spoiler"],
@@ -658,25 +452,4 @@ a[href$="#spoiler"]:hover,
 a[href$="/s"]:hover,
 a[href$="#s"]:hover {
     color: #FFF !important
-}
-
-
-.flair-notamod {
-    background: #228822 !important;
-    color: #dddddd !important;
-    padding: 2px !important;
-    margin-left: 3px !important;
-}
-
-.gold-accent.comment-visits-box {
-    padding: .75em 2em 0.75em;
-    font-size: 0.9em;
-    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0,0,0,0.1);
-    color: #705000;
-    border-color: #fde29b;
-    background-color: #fdf1d1;
-    margin-bottom: 1em;
-    display: inline-block;
-    left: 4px;
-    position: relative;
 }
