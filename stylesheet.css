@@ -89,6 +89,18 @@ code,
     position: relative;
 }
 
+.new-comment .usertext-body {
+    background: #fdf1d1;
+    border: solid 1px #fde29b;
+    margin: .3em 0;
+    padding: 0 4px;
+    border-radius: 6px;
+}
+
+.new-comment .usertext-body > .md > p {
+    color: #705000;
+}
+
 .side .md ul {
     list-style: none none;
     margin: 0;
