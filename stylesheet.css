@@ -379,6 +379,7 @@ html:lang(po) .linkflair-politic {
 }
 
 .res-commentBoxes .comment.spam {
+    background: #feecea !important;
     border-color: #fdd6d2 !important;
 }
 
