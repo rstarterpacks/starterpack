@@ -25,13 +25,15 @@ body {
     border: none;
 }
 
-.linkinfo {
-    font-family: 'IBM Plex Sans', 'Helvetica Neue', 'Arial', sans-serif;
-    background-color: #fff;
-    border: 1px solid #e4eaee;
-    border-radius: 0px;
-    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
-    padding: 1em;
+.md blockquote {
+    color: #5d6773;
+    border: none;
+}
+
+.md blockquote p {
+    border-left: 3px solid #e4eaee;
+    padding-left: 1em;
+    font-style: italic;
 }
 
 pre,
@@ -42,6 +44,15 @@ code,
     background-color: #ffffff;
     border-color: #e4eaee;
     overflow: auto;
+}
+
+.linkinfo {
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    background-color: #fff;
+    border: 1px solid #e4eaee;
+    border-radius: 0px;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
+    padding: 1em;
 }
 
 .side .md ul {
@@ -336,23 +347,6 @@ html:lang(po) .linkflair-politic {
 .side a[href*="#po"]:hover {
     color: #132c76;
     background-color: white;
-}
-
-/* End Filter */
-
-
-/* GREENTEXTING*/
-.md blockquote {
-    border: 0;
-    margin: 0;
-    color: #789922;
-    display: block;
-}
-
-.md blockquote p:before {
-    content: ">";
-    float: left;
-    display: block;
 }
 
 
