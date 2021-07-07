@@ -89,6 +89,10 @@ code,
     position: relative;
 }
 
+.res-commentBoxes.res-commentBoxes-rounded .comment {
+    border-radius: 0px !important;
+}
+
 .new-comment .usertext-body {
     background: #fdf1d1;
     border: solid 1px #fde29b;
@@ -234,10 +238,8 @@ code,
     height: 57px;
 }
 
-
-/* expando fix? */
 .commentarea .thing {
-    border-radius: 3px;
+    border-radius: 0px;
     background-color: #fff;
     margin: 0 0 8px;
     padding: 16px 16px 1px;
@@ -340,8 +342,8 @@ div.content {
 
 .comments-page .link {
     background: #fff;
-    padding: 16px;
     border: 1px solid #e4eaee;
+    padding: 16px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 
