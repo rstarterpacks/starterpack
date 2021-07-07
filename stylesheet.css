@@ -328,7 +328,7 @@ div.content {
 }
 
 .res .commentarea .comment a.expand:hover {
-    border-radius: 4px 0px 0px 4px;
+    border-radius: 0px 0px 0px 0px;
 }
 
 .commentarea .thing,
