@@ -89,7 +89,7 @@ code,
     position: relative;
 }
 
-.res-commentBoxes.res-commentBoxes-rounded .comment {
+.res .res-commentBoxes.res .res-commentBoxes-rounded .comment, .res .res-commentBoxes .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     border-radius: 0px !important;
 }
 
@@ -264,7 +264,7 @@ code,
     border: 1px solid #e4eaee;
 }
 
-.res-commentBoxes.res-commentBoxes .spam {
+.res .res-commentBoxes.res .res-commentBoxes .spam {
     background: #feecea !important;
     border-color: #fdd6d2 !important;
 }
@@ -274,7 +274,7 @@ code,
     border-color: #fdd6d2 !important;
 }
 
-.res-commentBoxes.res-commentBoxes .stickied {
+.res .res-commentBoxes.res .res-commentBoxes .stickied {
     border-color: #def3cf !important;
 }
 
