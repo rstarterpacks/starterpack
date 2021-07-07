@@ -1,11 +1,3 @@
-/* ------------------------------------------------------------------------------------------------------
- * starterpack CSS (e6d32c2) – 13:13, July 6th 2021
- *
- * Developed by ElijahPepe, kboy101222, ParkerEH, and ToCatchACreditor
- * ------------------------------------------------------------------------------------------------------
- * Project source:    https://github.com/ElijahPepe/starterpack
- * ------------------------------------------------------------------------------------------------------ */
-
 html {
     -webkit-text-size-adjust: 100%;
 }
@@ -107,6 +99,31 @@ code,
 
 .new-comment .usertext-body > .md > p {
     color: #705000;
+}
+
+.entry .buttons li.reported-stamp {
+    border: 1px solid #786300 !important;
+    padding: 0 4px;
+    background-color: #fcea94;
+    color: #222;
+}
+
+.pretty-button.negative {
+    border: 1px solid #801c13 !important;
+    background: #fbc0ba;
+    color: #222;
+}
+
+.pretty-button.neutral {
+    border: 1px solid #444e5a !important;
+    background: #e4eaee;
+    color: #222;
+}
+
+.pretty-button.positive {
+    border: 1px solid #2e5e05 !important;
+    background: #c3e8a3;
+    color: #222;
 }
 
 .side .md ul {
