@@ -91,7 +91,7 @@ code,
 
 .res .res-commentBoxes.res-commentBoxes-rounded .comment, .res .res-commentBoxes .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     border-radius: 0px !important;
-}
+}	
 
 .new-comment .usertext-body {
     background: #fdf1d1;
@@ -269,8 +269,9 @@ code,
     border-color: #fdd6d2 !important;
 }
 
-.commentarea .spam {
-    background: #feecea;
+.commentarea .spam,
+.comments-page .spam {
+    background: #feecea !important;
     border-color: #fdd6d2 !important;
 }
 
@@ -278,6 +279,7 @@ code,
     border-color: #def3cf !important;
 }
 
+.res .commentarea .stickied,
 .commentarea .stickied {
     background-color: #ecf8e3;
     border-color: #def3cf !important;
