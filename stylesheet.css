@@ -120,6 +120,10 @@ code,
     color: #222;
 }
 
+.pretty-button.neutral.pressed {
+    background: #bdc5cd;
+}
+
 .pretty-button.positive {
     border: 1px solid #2e5e05 !important;
     background: #c3e8a3;
