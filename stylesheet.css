@@ -1,3 +1,11 @@
+/* ------------------------------------------------------------------------------------------------------
+ * starterpack CSS (e6d32c2) – 13:13, July 6th 2021
+ *
+ * Developed by ElijahPepe, kboy101222, ParkerEH, and ToCatchACreditor
+ * ------------------------------------------------------------------------------------------------------
+ * Project source:    https://github.com/ElijahPepe/starterpack
+ * ------------------------------------------------------------------------------------------------------ */
+
 html {
     -webkit-text-size-adjust: 100%;
 }
@@ -253,8 +261,8 @@ code,
 }
 
 .sidecontentbox .content {
-    overflow: scroll;
-    width: 280px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0,0,0,0.1);
 }
 
 div.content {
