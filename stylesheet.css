@@ -580,3 +580,61 @@ div.side h3, .res-nightmode div.side h3 {
     width: 15px;
 }
 
+/* Sidebar Headers */
+
+.side .titlebox .md h2 {
+    position: relative;
+    background: #7ee1ee;
+    color: #010101;
+    margin: 10px -24px 20px -8px;
+}
+
+.side .md h2:before, .side .md h2:after, .side .md h2 strong:before, .side .md h2 strong:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.side .md h2:before {
+    bottom: 0;
+    left: -16px;
+    border: 8px solid transparent;
+    border-top: 8px solid #7ee1ee;
+    border-right: 8px solid #7ee1ee;
+}
+
+.side .md h2:after {
+    width: 16px;
+    height: calc(100% - 16px);
+    top: 0;
+    left: -16px;
+    background-color: #7ee1ee;
+}
+
+.side .md h2 strong {
+    display: block;
+    padding: 6px 10px;
+    font-weight: 200;
+}
+
+.side .md h2 strong:before, .side .md h2 strong:after {
+    background: pink;
+}
+
+.side .md h2 strong:before {
+    bottom: -4px;
+    left: -16px;
+    width: 14px;
+    height: 7px;
+    -webkit-transform: skewY(45deg);
+}
+
+.side .md h2 strong:after {
+    bottom: -10px;
+    right: 0;
+    width: calc(100% - -2px);
+    height: 6px;
+}
+
+
