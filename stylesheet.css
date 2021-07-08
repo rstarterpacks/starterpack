@@ -499,3 +499,84 @@ a[href$="/s"]:hover,
 a[href$="#s"]:hover {
     color: #FFF !important
 }
+
+/**Hover Boxes (still need to make some updates to this though)**/
+
+div.side h3, .res-nightmode div.side h3 {
+    text-align: center;
+    background-color: #C10E1F;
+    border: 1px solid #fff;
+    color: #000;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 0px
+    }
+
+.side .md h3, .res-nightmode .side .md h3{
+    
+    line-height: 18px;
+    background: #ececec;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 3px solid #bcbcbc;
+    margin: 5px 10px;
+    padding: 5px 0px 5px 5px;
+    width: auto;
+    color: #000;
+    text-align: left;
+    font-size: small;
+
+}
+
+.side .md h3:hover {
+    background: #d4d4d4;
+}
+
+.side .md h3 + ul {
+    font-family: Segoe,"Segoe UI",Optima,Candara,Calibri,Arial,sans-serif;
+    font-size: 13px;
+    list-style: none;
+    margin: -33px 4px 0 ;
+    padding: 0;
+    position: absolute;
+    width: auto;
+    min-width:250px !important;
+    max-width:300px !important;
+    right: 295px !important;
+    background: #fff;
+    border:1px solid #bcbcbc;
+    border-right:0px;
+    opacity: ;
+    visibility: hidden;
+    transition: all .16s ease;
+    -webkit-transition: all .16s ease;
+    -moz-transition: all .16s ease;
+    -ms-transition: all .16s ease;
+    -o-transition: all .16s ease;
+    z-index:100;
+}
+
+.side .md h3 + ul li {
+    padding: 7px 12px;
+}
+
+.side .md h3 + ul li:last-of-type {
+    border: 0;
+}
+
+.side .md h3:hover + ul, .side .md h3+ul:hover {
+    opacity: ;
+    visibility: visible;
+    right:300px;
+}
+
+.side .md h3 + ul:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100% ;
+    width: 15px;
+}
+
