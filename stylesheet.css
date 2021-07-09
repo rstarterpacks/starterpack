@@ -533,7 +533,7 @@ div.side h5, .res-nightmode div.side h5 {
     background: #d4d4d4;
 }
 
-.side .md h5 + ul {
+.side .md h5 + ol {
     font-family: Segoe,"Segoe UI",Optima,Candara,Calibri,Arial,sans-serif;
     font-size: 13px;
     list-style: none;
@@ -557,21 +557,21 @@ div.side h5, .res-nightmode div.side h5 {
     z-index:100;
 }
 
-.side .md h5 + ul li {
+.side .md h5 + ol li {
     padding: 7px 12px;
 }
 
-.side .md h5 + ul li:last-of-type {
+.side .md h5 + ol li:last-of-type {
     border: 0;
 }
 
-.side .md h5:hover + ul, .side .md h5+ul:hover {
+.side .md h5:hover + ol, .side .md h3+ol:hover {
     opacity: ;
     visibility: visible;
     right:300px;
 }
 
-.side .md h5 + ul:after {
+.side .md h5 + ol:after {
     content: '';
     position: absolute;
     top: 0;
@@ -579,6 +579,8 @@ div.side h5, .res-nightmode div.side h5 {
     left: 100% ;
     width: 15px;
 }
+
+
 
 /* Sidebar Headers */
 
