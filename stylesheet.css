@@ -91,6 +91,7 @@ code,
     font-size: 0.9em;
     left: 4px;
     position: relative;
+    border-radius: 0px;
 }
 
 .res .res-commentBoxes.res-commentBoxes-rounded .comment, .res .res-commentBoxes .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
