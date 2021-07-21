@@ -138,6 +138,27 @@ code,
     color: #222;
 }
 
+.expando-gate .expando-gate__show-once {
+    border: 1px solid #36c;
+    color: inherit;
+    margin: 20px;
+    padding: 10px;
+    text-transform: none;
+    background-color: #36c;
+    font-family: "IBM Plex Sans", "Helvetica Neue", "Arial", sans-serif;
+    font-weight: bold;
+    transition: background-color 100ms, color 100ms, border-color 100ms, box-shadow 100ms;
+}
+
+.expando-gate .expando-gate__show-once: hover {
+    border: 1px solid #447ff5;
+    background-color: #447ff5;
+}
+
+.expando-gate .expando-gate__show-once: focus {
+    box-shadow: inset 0 0 0 1px #3366cc,inset 0 0 0 2px #ffffff
+}
+
 .side .md ul {
     list-style: none none;
     margin: 0;
