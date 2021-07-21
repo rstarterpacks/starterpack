@@ -265,13 +265,12 @@ code,
 }
 
 .res .res-commentBoxes.res .res-commentBoxes .spam {
-    background: #feecea !important;
     border-color: #fdd6d2 !important;
 }
 
-.commentarea .spam,
-.comments-page .spam {
-    background: #feecea !important;
+.res .commentarea .spam,
+.commentarea .spam {
+    background: linear-gradient(#feecea, #feecea) !important;
     border-color: #fdd6d2 !important;
 }
 
