@@ -6,6 +6,10 @@ body {
     font-family: 'IBM Plex Sans', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
+.tagline a, .search-result-meta a {
+    color: #36c;
+}
+
 .md h1,
 .md h2,
 .md h3,
@@ -325,7 +329,7 @@ div.content {
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
-    background-color: #5ba2fd;
+    background-color: #36c;
 }
 
 .res .commentarea .comment a.expand:hover {
