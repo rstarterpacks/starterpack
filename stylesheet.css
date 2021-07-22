@@ -664,4 +664,45 @@ div.side h5, .res-nightmode div.side h5 {
     height: 6px;
 }
 
+/* =================
+      Night mode
+   ================= */
 
+
+.res-nightmode body,
+.res-nightmode body .content,
+.res-nightmode body .side,
+.res-nightmode .link,
+.res-nightmode .side .titlebox,
+.res-nightmode .side .spacer .titlebox .redditname,
+.res-nightmode .side .leavemoderator,
+.res-nightmode .side .titlebox form.flairtoggle,
+.res-nightmode .icon-menu a,
+.res-nightmode .side .linkinfo,
+.res-nightmode .usertext-edit textarea,
+.res-nightmode input[type="number"],
+.res-nightmode input[type="text"],
+.res-nightmode input[type="password"],
+.res-nightmode .c-form-control,
+.res-nightmode #searchexpando,
+.res-nightmode .post-sharing,
+.res-nightmode .morelink,
+.res-nightmode .res-show-link,
+.res-nightmode .login-form, 
+.res-nightmode .login-form-side .submit,
+.res-nightmode #header-bottom-right,
+.res-nightmode #srList,
+.res-nightmode .dropdown.lightdrop .drop-choices {
+   background-color: #172136 !important;
+}
+
+.res-nightmode .md h1,
+.res-nightmode .md h2,
+.res-nightmode .md h3,
+.res-nightmode .md h4,
+.res-nightmode .md h5,
+.res-nightmode .md h6 {
+    color: #cbd9f4 !important;
+    padding: 0 0 0.15em;
+    border-bottom: 1px solid #596e96;
+}
