@@ -706,3 +706,23 @@ div.side h5, .res-nightmode div.side h5 {
     padding: 0 0 0.15em;
     border-bottom: 1px solid #596e96;
 }
+
+.res-nightmode .tagline a, .res-nightmode .search-result-meta a {
+    color: #8cabe6 !important;
+}
+
+.res-nightmode .md blockquote {
+    color: #cbd9f4 !important;
+}
+
+.res-nightmode .md blockquote p {
+    border-color: #313e59 !important;
+}
+
+.res-nightmode pre,
+.res-nightmode code,
+.res-nightmode .md code,
+.res-nightmode .md pre {
+    background-color: #313e59 !important;
+    border-color: #172136 !important;
+}
