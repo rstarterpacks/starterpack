@@ -212,7 +212,7 @@ code,
 }
 
 .res .commentarea .comment > .entry > .tagline > .author.moderator {
-    background-color: #478515;
+    background-color: #478515 !important;
 }
 
 /* section from /r/crappydesign */
@@ -251,7 +251,7 @@ code,
 
 .commentarea .thing,
 .midcol {
-    position: relative
+    position: relative;
 }
 
 .commentarea .child.thing {
