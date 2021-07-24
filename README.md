@@ -8,7 +8,7 @@
   </a>
 </p>
 
-starterpack is an open-source stylesheet built for [/r/starterpacks](old.reddit.com/r/starterpacks).
+starterpack is an open-source stylesheet built for [/r/starterpacks](https://old.reddit.com/r/starterpacks).
 
 **This project is bound by a [Code of Conduct][].**
 
