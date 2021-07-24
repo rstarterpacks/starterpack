@@ -516,6 +516,10 @@ div.content {
     position: relative;
 }
 
+.tabmenu li {
+    margin: 0;
+}
+
 .tabmenu li a {
     background-color: #fbfbfb;
     color: #327ba7;
