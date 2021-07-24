@@ -44,12 +44,19 @@ pre,
 code,
 .md code,
 .md pre,
-.flair,
+.flair {
+    color: #36414f;
+    background-color: #ffffff;
+    border-color: #e4eaee;
+    border-radius: 2px;
+    padding: 1px 4px;
+    overflow: auto;
+}
+
 .linkflairlabel {
     color: #36414f;
     background-color: #ffffff;
     border-color: #e4eaee;
-    overflow: auto;
     border-radius: 2px;
     padding: 1px 4px;
 }
