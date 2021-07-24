@@ -1,3 +1,7 @@
+/* =================
+        elements
+   ================= */
+
 html {
     -webkit-text-size-adjust: 100%;
 }
@@ -88,6 +92,10 @@ code,
     display: none;
 }
 
+/* =================
+      reddit gold
+   ================= */
+
 .gold-accent {
     color: #705000 !important;
     border-color: #fde29b;
@@ -105,6 +113,10 @@ code,
     border-radius: 0px;
 }
 
+/* =================
+       comments
+   ================= */
+
 .res .res-commentBoxes.res-commentBoxes-rounded .comment, .res .res-commentBoxes .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     border-radius: 0px !important;
 }	
@@ -120,6 +132,171 @@ code,
 .new-comment .usertext-body > .md > p {
     color: #705000;
 }
+
+.commentarea .thing {
+    border-radius: 0px;
+    background-color: #fff;
+    margin: 0 0 8px;
+    padding: 16px 16px 1px;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.commentarea .child .thing {
+    box-shadow: none;
+}
+
+.commentarea .thing.collapsed {
+    padding: 10px 15px !important;
+}
+
+.res .commentarea .thing {
+    padding: 10px 15px 0 !important;
+    border: 1px solid #e4eaee !important;
+}
+
+.commentarea .thing {
+    padding: 10px 15px 0;
+    border: 1px solid #e4eaee;
+}
+
+.res .res-commentBoxes.res .res-commentBoxes .spam {
+    border-color: #fdd6d2 !important;
+}
+
+.res .commentarea .spam,
+.commentarea .spam {
+    background: linear-gradient(#feecea, #feecea) !important;
+    border-color: #fdd6d2 !important;
+}
+
+.res .commentarea .spam > .entry > .tagline > .author,
+.commentarea .spam > .entry > .tagline > .author {
+    color: #c22010;
+}
+
+.res .commentarea .spam > .entry > .tagline > .expand,
+.commentarea .spam > .entry > .tagline > .expand {
+    color: #c22010;
+}
+
+.res .commentarea .spam > .entry > .tagline > .expand:hover,
+.commentarea .spam > .entry > .tagline > .expand:hover {
+    background-color: #c22010;
+    color: #fff;
+}
+
+.res .res-commentBoxes.res .res-commentBoxes .stickied {
+    border-color: #def3cf !important;
+}
+
+.res .commentarea .stickied,
+.commentarea .stickied {
+    background-color: #ecf8e3;
+    border-color: #def3cf !important;
+}
+
+.res .commentarea .stickied > .entry > .tagline > .author,
+.commentarea .stickied > .entry > .tagline > .author {
+    color: #478515;
+}
+
+.res .commentarea .stickied > .entry > .tagline > .expand,
+.commentarea .stickied > .entry > .tagline > .expand {
+    color: #478515;
+}
+
+.res .commentarea .stickied > .entry > .tagline > .expand:hover,
+.commentarea .stickied > .entry > .tagline > .expand:hover {
+    background-color: #478515;
+    color: #fff;
+}
+
+.res .commentarea .comment > .entry > .tagline > .author.moderator {
+    background-color: #478515;
+}
+
+/* section from /r/crappydesign */
+
+.comment.noncollapsed .midcol {
+    margin-left: 30px;
+}
+
+.res .comment.noncollapsed .midcol {
+    margin-left: 10px;
+}
+
+.commentarea .comment a.expand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px 4px 0;
+    height: 100%;
+    opacity: .5;
+    box-sizing: border-box;
+    transition: 200ms;
+}
+
+.commentarea .comment a.expand:hover {
+    opacity: 1;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #36c;
+}
+
+.res .commentarea .comment a.expand:hover {
+    border-radius: 0px 0px 0px 0px;
+}
+
+.commentarea .thing,
+.midcol {
+    position: relative
+}
+
+.commentarea .child.thing {
+    border: 1px solid #fff !important;
+}
+
+/* =================
+        posts
+   ================= */
+
+.comments-page .link {
+    background: #fff;
+    border: 1px solid #e4eaee;
+    padding: 16px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.commentarea .menuarea {
+    padding: 0px 20px;
+}
+
+.comments-page .panestack-title .title {
+    margin-left: 20px;
+}
+
+.comments-page .spam {
+    background: linear-gradient(#feecea,#feecea);
+    border-color: #fdd6d2;
+}
+
+.comments-page .stickied {
+    background: #ecf8e3;
+    border-color: #def3cf;
+}
+
+.link .usertext-body .md {
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+    padding: 0;
+}
+
+/* =================
+   moderator buttons
+   ================= */
 
 .entry .buttons li.reported-stamp {
     border: 1px solid #786300 !important;
@@ -150,6 +327,10 @@ code,
     color: #222;
 }
 
+/* =================
+         nsfw
+   ================= */
+
 .expando-gate .expando-gate__show-once {
     border: 1px solid #36c;
     color: inherit;
@@ -170,6 +351,10 @@ code,
 .expando-gate .expando-gate__show-once: focus {
     box-shadow: inset 0 0 0 1px #3366cc,inset 0 0 0 2px #ffffff
 }
+
+/* =================
+        sidebar
+   ================= */
 
 .side .md ul {
     list-style: none none;
@@ -203,6 +388,10 @@ code,
     text-decoration: none;
     background-color: #316208;
 }
+
+/* =================
+        header
+   ================= */
 
 #header-bottom-right a:hover,
 #sr-header-area .dropdown.srdrop .selected:hover {
@@ -277,52 +466,6 @@ code,
     height: 57px;
 }
 
-.commentarea .thing {
-    border-radius: 0px;
-    background-color: #fff;
-    margin: 0 0 8px;
-    padding: 16px 16px 1px;
-    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
-}
-
-.commentarea .child .thing {
-    box-shadow: none;
-}
-
-.commentarea .thing.collapsed {
-    padding: 10px 15px !important;
-}
-
-.res .commentarea .thing {
-    padding: 10px 15px 0 !important;
-    border: 1px solid #e4eaee !important;
-}
-
-.commentarea .thing {
-    padding: 10px 15px 0;
-    border: 1px solid #e4eaee;
-}
-
-.res .res-commentBoxes.res .res-commentBoxes .spam {
-    border-color: #fdd6d2 !important;
-}
-
-.res .commentarea .spam,
-.commentarea .spam {
-    background: linear-gradient(#feecea, #feecea) !important;
-    border-color: #fdd6d2 !important;
-}
-
-.res .res-commentBoxes.res .res-commentBoxes .stickied {
-    border-color: #def3cf !important;
-}
-
-.res .commentarea .stickied,
-.commentarea .stickied {
-    background-color: #ecf8e3;
-    border-color: #def3cf !important;
-}
-
 .sidecontentbox .content {
     border: 1px solid #e6e6e6;
     box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0,0,0,0.1);
@@ -337,108 +480,10 @@ div.content {
     margin-right: 16px;
 }
 
-/* expando from crappy design style sheet */
 
-.comment.noncollapsed .midcol {
-    margin-left: 30px;
-}
-
-.res .comment.noncollapsed .midcol {
-    margin-left: 10px;
-}
-
-.commentarea .comment a.expand {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 4px 4px 0;
-    height: 100%;
-    opacity: .5;
-    box-sizing: border-box;
-    transition: 200ms;
-}
-
-.commentarea .comment a.expand:hover {
-    opacity: 1;
-    color: white;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-    background-color: #36c;
-}
-
-.res .commentarea .comment a.expand:hover {
-    border-radius: 0px 0px 0px 0px;
-}
-
-.commentarea .thing,
-.midcol {
-    position: relative
-}
-
-.commentarea .child.thing {
-    border: 1px solid #fff !important;
-}
-
-.comments-page .link {
-    background: #fff;
-    border: 1px solid #e4eaee;
-    padding: 16px;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-}
-
-.commentarea .menuarea {
-    padding: 0px 20px;
-}
-
-.comments-page .panestack-title .title {
-    margin-left: 20px;
-}
-
-
-/* Easter Egg Intensifies text code, [](/intensifies) */
-
-a[href="/intensifies"] {
-    color: #000000;
-    text-transform: uppercase;
-    display: block;
-    font-size: 15px;
-    animation: intensify .1s steps(5) infinite;
-    -webkit-animation: intensify .1s steps(5) infinite;
-    -moz-animation: intensify .1s steps(5) infinite;
-}
-
-@keyframes intensify {
-    0% {
-        margin-left: 0px;
-    }
-
-    100% {
-        margin-left: 2px;
-    }
-}
-
-@-webkit-keyframes intensify {
-    0% {
-        margin-left: 0px;
-    }
-
-    100% {
-        margin-left: 2px;
-    }
-}
-
-@-moz-keyframes intensify {
-    0% {
-        margin-left: 0px;
-    }
-
-    100% {
-        margin-left: 2px;
-    }
-}
-
-/* Easter Egg Ends*/
+/* ----------------------
+      CSS to organize
+   ---------------------- */
 
 /* Drop down/follow header */
 /* enter the following into subreddit setting sidebar to use:
@@ -618,8 +663,6 @@ div.side h5, .res-nightmode div.side h5 {
     width: 15px;
 }
 
-
-
 /* Sidebar Headers */
 
 .side .titlebox .md h2 {
@@ -677,10 +720,9 @@ div.side h5, .res-nightmode div.side h5 {
     height: 6px;
 }
 
-/* =================
-      Night mode
-   ================= */
-
+/* ----------------------
+        night mode
+   ---------------------- */
 
 .res-nightmode body,
 .res-nightmode body .content,
