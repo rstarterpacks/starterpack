@@ -409,6 +409,9 @@ code,
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     transition: 0.2s ease;
     text-align: center;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.46);
+-webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.46);
+-moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.46);
 }
 
 .side .md ul li a:hover {
@@ -812,3 +815,4 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode #header-bottom-right a {
     color: #cbd9f4 !important;
 }
+
