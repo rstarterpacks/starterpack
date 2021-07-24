@@ -507,6 +507,28 @@ div.content {
     margin-right: 16px;
 }
 
+/* =================
+       tabmenu
+   ================= */
+
+.tabmenu {
+    top: -5px;
+    position: relative;
+}
+
+.tabmenu li a {
+    background-color: #fbfbfb;
+    color: #327ba7;
+    box-shadow: inset 0 -7px 7px -7px rgba(0,0,0,0.15);
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+.tabmenu li.selected a {
+    color: #222;
+    border: 1px solid #fff;
+    box-shadow: none;
+}
 
 /* ----------------------
       CSS to organize
