@@ -62,7 +62,7 @@ code,
     border-color: #e4eaee;
     border-radius: 2px;
     padding: 1px 4px;
-    overflow: auto;
+    overflow: initial;
 }
 
 .linkflairlabel {
@@ -783,6 +783,26 @@ div.side h5, .res-nightmode div.side h5 {
     right: 0;
     width: calc(100% - -2px);
     height: 6px;
+}
+
+.infobar {
+    background-color: #fff;
+    border: 1px solid #e4eaee;
+    box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0,0,0,0.1);
+    border-radius: 0;
+}
+
+#userbarToggle {
+    background-color: #fff !important;
+    color: #444e5a !important;
+    border-right-color: #fff !important;
+    border-radius: 0 !important;
+}
+
+#header-bottom-right {
+    background-color: #fff;
+    box-shadow: 0 0.25em 0.6em -0.15em rgba(0,0,0,0.15);
+    border-bottom: 1px solid #e4eaee !important;
 }
 
 /* ----------------------
