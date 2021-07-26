@@ -219,7 +219,8 @@ code,
     color: #fff;
 }
 
-.res .commentarea .comment > .entry > .tagline > .author.moderator {
+.res .commentarea .comment > .entry > .tagline > .author.moderator,
+.entry > .tagline > .author.moderator {
     background-color: #478515 !important;
 }
 
@@ -546,6 +547,35 @@ div.content {
      background: #fdfdfd;
 }
 
+/* =================
+     submit buttons
+   ================= */
+
+.morelink .nub {
+    display: none;
+}
+
+.morelink {
+    background: #36c;
+    border-color: #36c;
+    transition: background-color 100ms,color 100ms,border-color 100ms,box-shadow 100ms;
+}
+
+.morelink:hover {
+    background: #447ff5;
+    border-color: #447ff5;
+}
+
+.morelink:focus,
+.morelink:active {
+    background-color:#447ff5;
+    box-shadow:inset 0 0 0 1px #3366cc,inset 0 0 0 2px #ffffff
+}
+
+.morelink a {
+    color: #fff;
+}
+
 /* ----------------------
       CSS to organize
    ---------------------- */
@@ -805,6 +835,17 @@ div.side h5, .res-nightmode div.side h5 {
     border-bottom: 1px solid #e4eaee !important;
 }
 
+.thing.stickied.link a.title {
+    color: #478515;
+}
+
+.searchpane {
+    margin: 0;
+    background: none;
+    border: none;
+    padding-left: 1rem;
+}
+
 /* ----------------------
         night mode
    ---------------------- */
@@ -870,4 +911,3 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode #header-bottom-right a {
     color: #cbd9f4 !important;
 }
-
