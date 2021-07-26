@@ -452,7 +452,7 @@ code,
 }
 
 .res-navTop #header-bottom-right {
-    top: 18px;
+    top: 18px !important;
 }
 
 #header {
