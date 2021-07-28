@@ -177,7 +177,7 @@ code,
     border-color: #fdd6d2 !important;
 }
 
-.comment.spam > .child
+.comment.spam > .child {
     padding-left: 0px;
     background-color: transparent;
 }
