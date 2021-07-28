@@ -177,6 +177,11 @@ code,
     border-color: #fdd6d2 !important;
 }
 
+.comment.spam > .child
+    padding-left: 0px;
+    background-color: transparent;
+}
+
 .res .commentarea .spam > .entry > .tagline > .author,
 .commentarea .spam > .entry > .tagline > .author {
     color: #c22010;
