@@ -878,7 +878,10 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode .login-form-side .submit,
 .res-nightmode #header-bottom-right,
 .res-nightmode #srList,
-.res-nightmode .dropdown.lightdrop .drop-choices {
+.res-nightmode .dropdown.lightdrop .drop-choices,
+.res-nightmode .side .md ul,
+.res-nightmode .sidebox .spacer,
+.res-nightmode .side .linkinfo {
    background-color: #172136 !important;
 }
 
@@ -915,4 +918,19 @@ div.side h5, .res-nightmode div.side h5 {
 
 .res-nightmode #header-bottom-right a {
     color: #cbd9f4 !important;
+}
+
+.res-nightmode .tabmenu li a {
+    background-color: #222e45 !important;
+    color: #8cabe6 !important;
+}
+
+.res-nightmode .tabmenu li.selected a {
+    background-color: #172136 !important;
+    border-color: #172136 !important;
+    color: #cbd9f4 !important;
+}
+
+.res-nightmode .tabmenu li:not(.selected):hover a {
+     background: #1c273c !important;
 }
