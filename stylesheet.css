@@ -946,3 +946,7 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode .tabmenu li:not(.selected):hover a {
      background: #1c273c !important;
 }
+
+.res-nightmode #header {
+    background: url(%%starterpacksfinalNM%%);
+}
