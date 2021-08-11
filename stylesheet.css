@@ -881,7 +881,9 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode .dropdown.lightdrop .drop-choices,
 .res-nightmode .side .md ul,
 .res-nightmode .sidebox .spacer,
-.res-nightmode .side .linkinfo {
+.res-nightmode .side .linkinfo,
+.res-nightmode #userbarToggle,
+.res-nightmode #sr-header-area {
    background-color: #172136 !important;
 }
 
@@ -944,9 +946,26 @@ div.side h5, .res-nightmode div.side h5 {
 }
 
 .res-nightmode .tabmenu li:not(.selected):hover a {
-     background: #1c273c !important;
+    background: #1c273c !important;
 }
 
 .res-nightmode #header {
     background: url(%%starterpacksfinalNM%%);
+}
+
+.res-nightmode #header {
+    background: url(%%starterpacksfinalNM%%);
+}
+
+.res-nightmode #header-bottom-right {
+    border-bottom-color: #172136 !important;
+    color: #cbd9f4 !important;
+}
+
+.res-nightmode #userbarToggle {
+    border-right-color: #172136 !important;
+}
+
+.res-nightmode #sr-header-area {
+    color: #cbd9f4 !important;
 }
