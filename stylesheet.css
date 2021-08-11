@@ -693,7 +693,7 @@ div.side h5, .res-nightmode div.side h5 {
     font-size: 12px;
     font-weight: normal;
     padding: 5px 0px
-    }
+}
 
 .side .md h5, .res-nightmode .side .md h5{
     
@@ -882,7 +882,13 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode .side .md ul,
 .res-nightmode .sidebox .spacer,
 .res-nightmode .side .linkinfo,
-.res-nightmode #sr-header-area {
+.res-nightmode #sr-header-area,
+.res-nightmode #RESShortcutsEditContainer,
+.res-nightmode #RESShortcutsSort,
+.res-nightmode #RESShortcutsRight,
+.res-nightmode #RESShortcutsLeft,
+.res-nightmode #RESShortcutsAdd,
+.res-nightmode .morelink {
     background-color: #172136 !important;
 }
 
@@ -967,5 +973,35 @@ div.side h5, .res-nightmode div.side h5 {
 }
 
 .res-nightmode #sr-header-area {
+    background-color: #172136 !important;
     color: #cbd9f4 !important;
+}
+
+.res-nightmode .sr-bar a {
+    color: #cbd9f4 !important;
+}
+
+.res-nightmode .morelink .nub {
+    display: none;
+}
+
+.res-nightmode .morelink {
+    background: #36c;
+    border-color: #36c;
+    transition: background-color 100ms,color 100ms,border-color 100ms,box-shadow 100ms;
+}
+
+.res-nightmode .morelink:hover {
+    background: #384766;
+    border-color: #475980;
+}
+
+.res-nightmode .morelink:focus,
+.res-nightmode .morelink:active {
+    background-color:#447ff5;
+    box-shadow:inset 0 0 0 1px #3366cc,inset 0 0 0 2px #ffffff
+}
+
+.res-nightmode .morelink a {
+    color: #cbd9f4;
 }
