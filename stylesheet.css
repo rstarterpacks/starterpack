@@ -882,9 +882,8 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode .side .md ul,
 .res-nightmode .sidebox .spacer,
 .res-nightmode .side .linkinfo,
-.res-nightmode #userbarToggle,
 .res-nightmode #sr-header-area {
-   background-color: #172136 !important;
+    background-color: #172136 !important;
 }
 
 .res-nightmode .md h1,
@@ -963,6 +962,7 @@ div.side h5, .res-nightmode div.side h5 {
 }
 
 .res-nightmode #userbarToggle {
+    background-color: #172136 !important;
     border-right-color: #172136 !important;
 }
 
