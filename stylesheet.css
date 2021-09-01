@@ -231,6 +231,10 @@ code,
 
 /* section from /r/crappydesign */
 
+.comment.noncollapsed .midcol {
+    margin-left: 10px;
+}
+
 .res .comment.noncollapsed .midcol {
     margin-left: 10px;
 }
@@ -249,7 +253,7 @@ code,
 .commentarea .comment a.expand:hover {
     opacity: 1;
     color: white;
-    border-radius: 4px;
+    border-radius: 0px;
     text-decoration: none;
     font-weight: bold;
     background-color: #36c;
