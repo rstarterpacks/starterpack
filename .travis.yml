@@ -1,6 +1,5 @@
 language: python
 sudo: required
-dist: focal
 virtualenv:
   system_site_packages: true
 python:
@@ -8,7 +7,7 @@ python:
 before_install:
   - "sudo apt-add-repository -y ppa:reddit/ppa"
   - "sudo apt-get update -q"
-  - "sudo apt-get install python-tinycss2-common -y"
+  - "python -m pip install tinycss2"
 install: 
   - "pip install http://github.com/praw-dev/praw/tarball/d0f69dc84f70fc482ac5d6e707554853fd767e29#egg=praw"
   - "wget https://raw.githubusercontent.com/reddit/reddit/master/r2/r2/lib/cssfilter.py"
