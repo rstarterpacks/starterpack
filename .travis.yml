@@ -9,7 +9,7 @@ before_install:
   - "sudo apt-get update -q"
   - "python -m pip install tinycss2"
 install: 
-  - "pip install http://github.com/praw-dev/praw/tarball/3aea991bf84e9f9ff2d7794576ab49da5c7cda5f#egg=praw"
+  - "pip install http://github.com/praw-dev/praw/tarball/8b55df5ad8c1098e63924b41fc59e1b040a845b3#egg=praw"
   - "wget https://raw.githubusercontent.com/reddit/reddit/master/r2/r2/lib/cssfilter.py"
   - "wget https://raw.githubusercontent.com/empyrical/reddit/a2e7ee5e5694d4b292c0f50c1d1f5afaedb6e673/r2/r2/lib/contrib/rcssmin.py"
 script: "python ./validatecss.py"
