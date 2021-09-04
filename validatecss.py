@@ -186,8 +186,6 @@ def validate(replace_image_uris=ast.literal_eval(
         parsed, errors = cssfilter.validate_css(_force_unicode(data), images)
         errors.extend(image_errors)
         errors = [CSSError(error) for error in errors]
-        if errors:
-            raise CSSErrorSet(errors)
         if minify:
             to_write = re.sub(
                 r"url\(('|\")%%([a-zA-Z0-9\-]{1,100})%%('|\")\)",
