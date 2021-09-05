@@ -40,20 +40,21 @@ def deploy_images(diff, reddit, force=False):
         diff.update({b: False for b in remove})
     else:
         diff = {f: os.path.isfile(f) for f in diff}
-    deploy_data = {'subreddit': os.getenv('subreddit')}
-    for image, exists in diff.items():
-        data = dict(deploy_data)
-        with open(image) as image_file:
-            if exists:
-                data['image_path'] = image
-            else:
-                data['name'] = os.path.splitext(
-                    os.path.basename(image_file.name)
-                )[0]
-            getattr(
-                reddit,
-                "{0}_image".format("upload" if exists else "delete")
-            )(**data)
+    for subreddit in os.getenv('subreddit').split('+'):
+        deploy_data = {'subreddit': subreddit}
+        for image, exists in diff.items():
+            data = dict(deploy_data)
+            with open(image) as image_file:
+                if exists:
+                    data['image_path'] = image
+                else:
+                    data['name'] = os.path.splitext(
+                        os.path.basename(image_file.name)
+                    )[0]
+                getattr(
+                    reddit,
+                    "{0}_image".format("upload" if exists else "delete")
+                )(**data)
 
 
 def deploy(force=ast.literal_eval(os.getenv('force_deploy', 'False'))):
@@ -79,8 +80,10 @@ def deploy(force=ast.literal_eval(os.getenv('force_deploy', 'False'))):
     if update_images or force:
         deploy_images(image_diff, r, force)
     if update_css or force:
-        with open(stylesheet, 'r') as css:
-            r.set_stylesheet(os.getenv('subreddit'), css.read())
+        with open(stylesheet, 'r') as stylesheet_file:
+            css = stylesheet_file.read()
+            for subreddit in os.getenv('subreddit').split('+'):
+                r.set_stylesheet(subreddit, css)
 
 if __name__ == '__main__':
     deploy()
