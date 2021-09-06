@@ -742,7 +742,6 @@ div.side h5, .res-nightmode div.side h5 {
     background: #fff;
     border:1px solid #bcbcbc;
     border-right:0px;
-    opacity: ;
     visibility: hidden;
     transition: all .16s ease;
     -webkit-transition: all .16s ease;
@@ -761,7 +760,6 @@ div.side h5, .res-nightmode div.side h5 {
 }
 
 .side .md h5:hover + ol, .side .md h3+ol:hover {
-    opacity: ;
     visibility: visible;
     right:300px;
 }
@@ -823,6 +821,7 @@ div.side h5, .res-nightmode div.side h5 {
     width: 14px;
     height: 7px;
     -webkit-transform: skewY(45deg);
+    transform: skewY(45deg);
 }
 
 .side .md h2 strong:after {
@@ -1007,4 +1006,26 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode .morelink:focus,
 .res-nightmode .morelink:active {
     background-color: #447ff5 !important;
+}
+
+.res-nightmode .comments-page .link,
+.res-nightmode #search input[type="text"] {
+    border-color: #596e96 !important;
+}
+
+.res-nightmode.res-commentBoxes .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #172136 !important;
+    border: 1px solid #596e96 !important;
+}
+.res-nightmode.res-commentBoxes .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #071022 !important;
+    border: 1px solid #596e96 !important;
 }
