@@ -743,6 +743,7 @@ div.side h5, .res-nightmode div.side h5 {
     border:1px solid #bcbcbc;
     border-right:0px;
     visibility: hidden;
+    opacity: ;
     transition: all .16s ease;
     -webkit-transition: all .16s ease;
     -moz-transition: all .16s ease;
@@ -762,6 +763,7 @@ div.side h5, .res-nightmode div.side h5 {
 .side .md h5:hover + ol, .side .md h3+ol:hover {
     visibility: visible;
     right:300px;
+    opacity: ;
 }
 
 .side .md h5 + ol:after {
