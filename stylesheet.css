@@ -1060,3 +1060,7 @@ div.side h5, .res-nightmode div.side h5 {
     background-color: #3c780a !important;
     border-color: #ecf8e3 !important
 }
+
+.res-nightmode #header-img.default-header {
+    background-image: url(%%spriteNM%%);
+}
