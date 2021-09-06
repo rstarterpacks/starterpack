@@ -916,8 +916,7 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode .md h3,
 .res-nightmode .md h4,
 .res-nightmode .md h5,
-.res-nightmode .md h6,
-.res-nightmode .md blockquote {
+.res-nightmode .md h6 {
     color: #cbd9f4 !important;
     padding: 0 0 0.15em;
     border-bottom: 1px solid #596e96;
@@ -927,8 +926,21 @@ div.side h5, .res-nightmode div.side h5 {
     color: #8cabe6 !important;
 }
 
+.res-nightmode .md blockquote,
+.res-nightmode .new-comment .usertext-body > .md > p {
+    color: #cbd9f4 !important;
+}
+
 .res-nightmode .md blockquote p {
     border-color: #313e59 !important;
+}
+
+.res-nightmode .res .commentarea .thing {
+    border-color: #596e96 !important;
+}
+
+.res-nightmode .commentarea .thing {
+    background-color: #172136 !important;
 }
 
 .res-nightmode pre,
@@ -1013,19 +1025,40 @@ div.side h5, .res-nightmode div.side h5 {
     border-color: #596e96 !important;
 }
 
-.res-nightmode.res-commentBoxes .comment,
-.res-nightmode.res-commentBoxes .comment .comment .comment,
-.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment,
-.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,
-.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+.res-nightmode .res-commentBoxes .comment[data-type="comment"],
+.res-nightmode .res-commentBoxes .comment .comment .comment[data-type="comment"],
+.res-nightmode .res-commentBoxes .comment .comment .comment .comment .comment[data-type="comment"],
+.res-nightmode .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment[data-type="comment"],
+.res-nightmode .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment[data-type="comment"] {
     background-color: #172136 !important;
-    border: 1px solid #596e96 !important;
+    border-color: 1px solid #596e96 !important;
 }
-.res-nightmode.res-commentBoxes .comment .comment,
-.res-nightmode.res-commentBoxes .comment .comment .comment .comment,
-.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment,
-.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
-.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+
+.res-nightmode .res-commentBoxes .comment .comment[data-type="comment"],
+.res-nightmode .res-commentBoxes .comment .comment .comment .comment[data-type="comment"],
+.res-nightmode .res-commentBoxes .comment .comment .comment .comment .comment .comment[data-type="comment"],
+.res-nightmode .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment[data-type="comment"],
+.res-nightmode .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment[data-type="comment"] {
     background-color: #071022 !important;
     border: 1px solid #596e96 !important;
+}
+
+.res-nightmode .res .commentarea .spam,
+.res-nightmode .commentarea .spam {
+    background: linear-gradient(#9f261e,#9f261e) !important;
+    border-color: #feecea !important
+}
+
+.res-nightmode .res .res-commentBoxes.res .res-commentBoxes .stickied {
+    border-color: #ecf8e3 !important
+}
+
+.res-nightmode .res .commentarea .stickied,
+.res-nightmode .commentarea .stickied {
+    background-color: #3c780a !important;
+    border-color: #ecf8e3 !important
+}
+
+.res-nightmode #header-img.default-header {
+    filter: invert(180);
 }
