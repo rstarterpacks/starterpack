@@ -137,9 +137,21 @@ code,
        comments
    ================= */
 
-.res .res-commentBoxes.res-commentBoxes-rounded .comment, .res .res-commentBoxes .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+.res .res-commentBoxes.res-commentBoxes-rounded .comment,
+.res .res-commentBoxes .comment .comment,
+.res .res-commentBoxes .comment .comment .comment .comment,
+.res .res-commentBoxes .comment .comment .comment .comment .comment .comment,
+.res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+.res .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     border-radius: 0px !important;
-}	
+}
+
+.comment.collapsed .tagline,
+.comment.collapsed .tagline a,
+.comment.collapsed .search-result-meta,
+.comment.collapsed .search-result-meta a {
+    padding-bottom: 8px;
+}
 
 .new-comment .usertext-body {
     background: #fdf1d1;
