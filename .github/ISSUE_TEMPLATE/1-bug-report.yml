@@ -12,10 +12,6 @@ body:
         Please fill in as much of the form below as you're able.
   - type: input
     attributes:
-      label: Commit
-      description: String of characters next to `starterpack CSS` in parenthesis at https://www.reddit.com/r/starterpacks/about/stylesheet/
-  - type: input
-    attributes:
       label: Platform
       description: |
         UNIX: output of `uname -a`
