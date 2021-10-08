@@ -1075,3 +1075,8 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode #header-img.default-header {
     background-image: url(%%spriteNM%%);
 }
+
+.res-nightmode .thumbnail img,
+.res-nightmode .res-image-media {
+    opacity: 0.75;
+}
