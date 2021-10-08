@@ -1079,4 +1079,10 @@ div.side h5, .res-nightmode div.side h5 {
 .res-nightmode .thumbnail img,
 .res-nightmode .res-image-media {
     opacity: 0.75;
+    transition: opacity .5s ease-in-out;
+}
+
+.res-nightmode .thumbnail img:hover,
+.res-nightmode .res-image-media:hover {
+    opacity: 1;
 }
